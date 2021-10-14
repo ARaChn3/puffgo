@@ -9,6 +9,6 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ##  _:exclamation: Warning :exclamation:_
 This project is _strictly for educational purposes_, any malicious activities that involve use of this repository is not the responsibility of the owner. 
-**:zap: Ignore at your own risk!**.
+**:zap: Ignore at your own risk! :zap:**.
 
 
