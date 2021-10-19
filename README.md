@@ -21,7 +21,7 @@ More info about the library, including _docs_, _usage reference_ and _examples_,
 
 
 ## License :scroll:
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The Apache License 2.0 License. Please see [License File](LICENSE) for more information.
 
 
 ##  _:exclamation: Warning :exclamation:_
