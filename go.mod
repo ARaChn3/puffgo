@@ -1,4 +1,4 @@
-module github.com/NovusEdge/puffgo
+module github.com/H4cK4Just1C3/puffgo
 
 go 1.17
 
