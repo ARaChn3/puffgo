@@ -5,18 +5,18 @@ A simple go package implementing a simple logic-bomb
 
 To use the types and functions within, simply import:
 ```go
-import "github.com/H4cK4Just1C3/puffgo"
+import "github.com/ARaChn3/puffgo"
 ```
 
 Run the following command in shell to get the module for your package:
 
 ```shell
-$ go get github.com/H4cK4Just1C3/puffgo
+$ go get github.com/ARaChn3/puffgo
 ```
 
 <br>
 
-More info about the library, including _docs_, _usage reference_ and _examples_, can be found on the project's [wiki](https://github.com/H4cK4Just1C3/puffgo/wiki)
+More info about the library, including _docs_, _usage reference_ and _examples_, can be found on the project's [wiki](https://github.com/ARaChn3/puffgo/wiki)
 
 
 
