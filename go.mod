@@ -1,4 +1,4 @@
-module github.com/H4cK4Just1C3/puffgo
+module github.com/ARaChn3/puffgo
 
 go 1.17
 
