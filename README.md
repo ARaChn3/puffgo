@@ -1,6 +1,11 @@
 # puffgo
 A simple go package implementing a simple logic-bomb
 
+##  _:exclamation: Warning :exclamation:_
+This project is _strictly for educational/research purposes_, any malicious activities that involve use of this repository is not the responsibility of the owner. 
+**:zap: Ignore at your own risk! :zap:**.
+
+
 ## Usage:
 
 To use the types and functions within, simply import:
@@ -22,10 +27,3 @@ More info about the library, including _docs_, _usage reference_ and _examples_,
 
 ## License :scroll:
 The Apache License 2.0 License. Please see [License File](LICENSE) for more information.
-
-
-##  _:exclamation: Warning :exclamation:_
-This project is _strictly for educational purposes_, any malicious activities that involve use of this repository is not the responsibility of the owner. 
-**:zap: Ignore at your own risk! :zap:**.
-
-
