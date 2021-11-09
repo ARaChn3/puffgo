@@ -38,6 +38,8 @@ func NewBomb(listener EventListener, execFunc func()) *LogicBomb {
 	return &lb
 }
 
+// Arm() allows the activation of the bomb. If a bomb is not armed,
+// it won't be triggered even if the event defined in Listener occurs.
 func (lb *LogicBomb) Arm() {
 	var wg sync.WaitGroup
 
@@ -63,6 +65,9 @@ func (lb *LogicBomb) Arm() {
 	wg.Wait()
 }
 
+// Disarm() allows the deactivation of the bomb. It passes a true into
+// the TerminationChannel of Listener, thereby terminating the listener's
+// mainloop.
 func (lb *LogicBomb) Disarm() {
 	lb.Listener.Terminate()
 }

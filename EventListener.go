@@ -5,8 +5,10 @@ import (
 	"time"
 )
 
-// EventListener ...
-// TODO: Write some docs for this type
+// EventListener implements an event-listener that performs
+// checks for occuerence of an event in the system. The said checks
+// are preformed on the basis of the TriggerFunction field.
+// Check the docs for more info.
 type EventListener struct {
 
 	// TriggerChannel is to detect if the event has occured.
@@ -36,6 +38,7 @@ type EventListener struct {
 	PID *int
 }
 
+// NewListener creates a new instance of EventListener and returns a pointer to it.
 func NewListener(interval *time.Duration, tfunc func() bool) *EventListener {
 	var el EventListener
 	pid := os.Getpid()
@@ -77,4 +80,9 @@ func (e *EventListener) Mainloop() {
 // Terminate terminates the mainloop checking for the event.
 func (e *EventListener) Terminate() {
 	e.TerminationChannel <- true
+}
+
+// GetPID returns the PID for the EventListener's process.
+func (e *EventListener) GetPID() int {
+	return *(e.PID)
 }
