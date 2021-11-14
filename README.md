@@ -1,3 +1,7 @@
+<p align=center>
+<img src=https://github.com/ARaChn3/puffgo/blob/main/puffgo-logo.png?raw=true> 
+</p>
+
 # puffgo
 A simple go package implementing a simple logic-bomb
 
@@ -27,3 +31,7 @@ More info about the library, including _docs_, _usage reference_ and _examples_,
 
 ## License :scroll:
 This project is licensed under the GPL-3.0 License. Please see [License File](LICENSE) for more information.
+
+***
+
+Credit to the [free-gophers-pack](https://github.com/MariaLetta/free-gophers-pack) project for the gopher in the logo.
