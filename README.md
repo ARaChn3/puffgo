@@ -1,16 +1,16 @@
 <p align=center>
-<img src=https://github.com/ARaChn3/puffgo/blob/main/puffgo-logo.png?raw=true> 
+<img src=https://github.com/ARaChn3/puffgo/blob/main/puffgo-logo.png?raw=true>
 </p>
 
 # puffgo
 A simple go package implementing a simple logic-bomb
 
 ##  _:exclamation: Warning :exclamation:_
-This project is _strictly for educational/research purposes_, any malicious activities that involve use of this repository is not the responsibility of the owner. 
+This project is _strictly for educational/research purposes_, any malicious activities that involve use of this repository is not the responsibility of the owner.
 **:zap: Ignore at your own risk! :zap:**.
 
 
-## Usage:
+## Usage
 
 To use the types and functions within, simply import:
 ```go
