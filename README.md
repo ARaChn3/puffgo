@@ -30,7 +30,7 @@ More info about the library, including _docs_, _usage reference_ and _examples_,
 
 
 ## License :scroll:
-This project is licensed under the GPL-3.0 License. Please see [License File](LICENSE) for more information.
+This project is licensed under the GNU LGPLv3 (GNU Lesser General Public License 3.0) License. Please see [License File](LICENSE) for more information.
 
 ***
 
