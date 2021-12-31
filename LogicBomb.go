@@ -4,10 +4,9 @@ package puffgo
 // Author: Aliasgar Khimani (NovusEdge)
 // Project: github.com/ARaChn3/puffgo
 //
-// Copyright: GPL-v3.
+// Copyright: GNU LGPLv3
 // See the LICENSE file for more info.
 */
-
 
 import (
 	"crypto/rand"
